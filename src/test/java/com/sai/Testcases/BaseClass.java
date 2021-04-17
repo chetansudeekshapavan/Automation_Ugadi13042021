@@ -71,7 +71,7 @@ public class BaseClass {
 		return true;
 		}catch(NoAlertPresentException e)
 		{
-			System.out.println(e.getMessage());
+			e.printStackTrace();;
 			return false;
 		}
 		
