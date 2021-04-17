@@ -7,9 +7,9 @@
 </listeners>
 <test name="Test">
     <classes>
-      <class name="com.sai.Testcases.Login_DDT"/>
+      
       <class name="com.sai.Testcases.LoginTestcase"/>
-      <class name="com.sai.Testcases.RegistrationTestcase"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
