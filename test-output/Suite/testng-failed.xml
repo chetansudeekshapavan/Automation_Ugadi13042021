@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.sai.Testutilities.Report"/>
+  </listeners>
+  <test name="Test">
+    <classes>
+      <class name="com.sai.Testcases.Login_DDT"/>
+      <class name="com.sai.Testcases.LoginTestcase"/>
+      <class name="com.sai.Testcases.RegistrationTestcase"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.sai.Testcases.RegistrationTestcase">
+        <methods>
+          <include name="Registration"/>
+        </methods>
+      </class> <!-- com.sai.Testcases.RegistrationTestcase -->
+      <class name="com.sai.Testcases.LoginTestcase">
+        <methods>
+          <include name="Login"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.sai.Testcases.LoginTestcase -->
+      <class name="com.sai.Testcases.Login_DDT">
+        <methods>
+          <include name="teardown"/>
+          <include name="LoginDDT" invocation-numbers="1 2 3"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.sai.Testcases.Login_DDT -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

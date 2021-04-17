@@ -1,0 +1,9 @@
+com\sai\Testutilities\Report.class
+com\sai\Testcases\RegistrationTestcase.class
+com\sai\Testutilities\ReadConfig.class
+com\sai\Testcases\BaseClass.class
+com\sai\Pageobjects\Loginpageobjects.class
+com\sai\Testcases\LoginTestcase.class
+com\sai\Testcases\Login_DDT.class
+com\sai\Testutilities\XLUtils.class
+com\sai\Pageobjects\Registrationpageobjects.class
